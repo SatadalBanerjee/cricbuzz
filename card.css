@@ -1,0 +1,63 @@
+#signup-navbar{
+    width: 80%;
+    height: 50px;
+    background-color: rgb(0,146,112);
+    margin: auto;
+    margin-bottom: 10px;
+}
+#signup-navbar>div>img{
+    margin-top: 3px;
+    margin-left: 25px;
+    height: 42px;
+    cursor: pointer;
+    }
+
+#card-details{
+    height: 430px;
+    width: 35%;
+    /* border: 1px solid red; */
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 60px;
+}
+body{
+    background-color: rgba(233, 231, 228, 0.929);
+  }
+  *{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  h4{
+    margin-left: 40px;
+  }
+  #card-no{
+    margin-left: 55px;
+  }
+  #card-no+input{
+    margin-left:55px;
+    padding: 10px 60px;
+    border-radius: 5px;
+  }
+  #card-name{
+    margin-left: 55px;
+  }
+  #card-name+input{
+    margin-left:55px;
+    padding: 10px 60px;
+    border-radius: 5px;
+  }
+  .expcvv{
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  button{
+    position: absolute;
+    background-color: rgb(3, 139, 116);
+    padding: 10px 55px 10px 55px;
+    border-radius: 5px;
+    border: 0ch;
+    font-size: larger;
+    top: 65%;
+    right: 47%;
+    color: white;
+  }

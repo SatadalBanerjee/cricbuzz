@@ -1,0 +1,85 @@
+body{
+    background-color: rgba(233, 231, 228, 0.929);
+  }
+
+  #main-box{
+    margin: auto;
+    width: 80%;
+    height: 600px;
+    /* border: 1px solid red; */
+    background-color: rgba(220, 225, 225, 0.806);
+  }
+  h1{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 70px;
+    right: 40%;
+  }
+  #main-box>h1+div{
+    width: 60%;
+    height: 1.5px;
+    background-color: rgb(121, 120, 120);
+    right: 21%;
+    position: absolute;
+    top: 30%;
+  }
+  #inner-main-box{
+    position: absolute;
+    width: 60%;
+    height: 235px;
+    border: 1px solid white;
+    top: 38%;
+    right: 21%;
+    background-color: white;
+  }
+  #inner-main-box>div:nth-child(1){
+    height: 90px;
+    border: 1px solid white;
+    background-color: rgb(3, 139, 116);
+  }
+  #inner-main-box>div:nth-child(2){
+    height: 70px;
+    border: 1px solid white;
+  }
+  #inner-main-box>div:nth-child(3){
+    height: 70px;
+    border: 1px solid white;
+  }
+  #box1-p1{
+    color: white;
+    margin-left: 50px;
+  }
+  #box1-p2{
+    display: flex;
+    color: white;
+    text-align: end;
+    justify-content: end;
+    margin-top: -80px;
+  }
+ 
+  #box1-p2>h2{
+    margin-top: 10px;
+    margin-right: 40px;
+  }
+  #box1-p2>p{
+    margin-right: 5px;
+  }
+  #line{
+    width: 60%;
+    height: 1px;
+    background-color: rgb(121, 120, 120);
+    right: 21%;
+    position: absolute;
+    top: 60%;
+  }
+  button{
+    position: absolute;
+    padding: 15px 35px 15px 35px;
+    border-radius: 5px;
+    border: 0ch;
+    background-color: rgb(3, 139, 116);
+    color: white;
+    font-size: larger;
+    top: 80%;
+    right: 45%;
+  }
